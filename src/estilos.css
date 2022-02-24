@@ -8,6 +8,21 @@ html , body , #root {
     height: 100vh;
 }
 
+header {
+    font-size: 20px;
+    background-color: rgb(122, 113, 113);
+    font-weight: 800; 
+    padding: 10px;
+    box-shadow: 0 2px 5px;
+}
+
+h1.titulo {display: inline-block; padding-right: 40%;}
+.btn__cart{padding: 5px 15px; cursor: pointer; border: none; background-color: transparent;}
+a {margin: 0px 20px; text-decoration: none; color: black;}
+
+main{margin: 20px;}
+h2{font-size: 40px; margin-top: 30px;}
+
 footer {
     text-align: center;
     position:absolute;
@@ -16,9 +31,3 @@ footer {
     padding: 10px;
     color: white;
     background:black;}
-
-header {font-size: 20px; background-color: rgb(122, 113, 113); font-weight: 800; padding: 10px;}
-
-h1.titulo {display: inline-block; padding-right: 50%;}
-
-a {margin: 0px 20px; text-decoration: none; color: black;}
