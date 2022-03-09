@@ -21,7 +21,13 @@ h1.titulo {display: inline-block; padding-right: 40%;}
 a {margin: 0px 20px; text-decoration: none; color: black;}
 
 main{margin: 20px;}
-h2{font-size: 40px; margin-top: 30px;}
+h2.titulo__main{font-size: 40px; margin: 30px 0px; text-align: center;}
+
+div.box{background-color: #faebd7;padding: 12px; border-radius: 20px; display: grid; justify-content: space-between;}
+h3.titulo__main--productos{font-size: 26px; }
+div.box__productos{display:flex; text-align: center;}
+div.box__productos--item{width: auto; height: auto; background-color: #dccdcf; margin: 5px;padding: 5px; display: grid;}
+h3.titulo__item{background-color: #ffffff; padding: 5px 0px;}
 
 fieldset.box{
     margin: 20px; 
