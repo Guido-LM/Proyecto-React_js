@@ -48,7 +48,7 @@ function ItemListContainer(greeting) {
   return (
     <main>
         <h2 className='titulo__main'>{titulo}</h2>
-        {cargado ? <ItemList productos={productos}/>: <div className='box'>Cargando...</div>}
+        {cargado ? <ItemList productos={productos}/>: <section className='box'>Cargando...</section>}
     </main>
   )
 }
